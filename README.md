@@ -19,6 +19,8 @@ The recognized license plate numbers are displayed on the video feed or saved to
 
 Please note that this algorithm is specifically trained and optimized for Russian license plates. For accurate recognition of license plates from other regions or countries, additional training or fine-tuning may be required.
 
+The empty 'plates' folder allows for easy organization and retrieval of the recognized license plate images. As soon as the algorithm detects a license plate, it will save a snapshot of the plate as a separate image file in this folder. This enables further analysis, archiving, or post-processing of the recognized license plate
+
 We encourage you to explore and modify the algorithm to suit your specific needs. If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request on the GitHub repository.
 
 Happy live license plate recognition!
