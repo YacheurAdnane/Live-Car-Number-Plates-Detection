@@ -1,0 +1,1 @@
+model  haarcascade_russian_plate_number.xml   to detect license plates. 
