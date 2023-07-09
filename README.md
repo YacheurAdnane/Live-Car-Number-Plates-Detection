@@ -5,17 +5,17 @@ The Haar cascade classifier model, specifically trained for Russian license plat
 
 To use this algorithm, please follow the steps below:
 
-Clone or download the repository to your local machine.
+1- Clone or download the repository to your local machine.
 
-Ensure that you have the required dependencies installed. The algorithm relies on OpenCV, NumPy, and other common libraries for image processing and computer vision tasks. You can find the complete list of dependencies and their versions in the requirements.txt file.
+2- Ensure that you have the required dependencies installed. The algorithm relies on OpenCV, NumPy, and other common libraries for image processing and computer vision tasks. You can find the complete list of dependencies and their versions in the requirements.txt file.
 
-Connect a webcam to your computer or prepare a live video stream source.
+3- Connect a webcam to your computer or prepare a live video stream source.
 
-Run the live_license_plate_recognition.py script provided in the repository. This script initializes the webcam or video stream and performs real-time license plate recognition.
+4- Run the live_license_plate_recognition.py script provided in the repository. This script initializes the webcam or video stream and performs real-time license plate recognition.
 
-During the live video feed, the algorithm applies the Haar cascade classifier model, haarcascade_russian_plate_number.xml, to detect license plates. It then utilizes segmentation techniques to isolate the license plate region from the rest of the image. Finally, contour detection is employed to extract the alphanumeric characters from the license plate.
+5- During the live video feed, the algorithm applies the Haar cascade classifier model, haarcascade_russian_plate_number.xml, to detect license plates. It then utilizes segmentation techniques to isolate the license plate region from the rest of the image. Finally, contour detection is employed to extract the alphanumeric characters from the license plate.
 
-The recognized license plate numbers are displayed on the video feed or saved to a log file, depending on the configuration set in the script.
+6- The recognized license plate numbers are displayed on the video feed or saved to a log file, depending on the configuration set in the script.
 
 Please note that this algorithm is specifically trained and optimized for Russian license plates. For accurate recognition of license plates from other regions or countries, additional training or fine-tuning may be required.
 
